@@ -79,21 +79,21 @@ app.get;('/', (req, res) => {
 })
 
     // this is the hamburger function 
-    (function(){
-      "use strict";
+    // (function(){
+    //   "use strict";
 
-      console.log('fired');
+    //   console.log('fired');
 
-      var button = document.querySelector("#button");
-      var burgerCon = document.querySelector("#burgerCon");
+    //   var button = document.querySelector("#button");
+    //   var burgerCon = document.querySelector("#burgerCon");
 
-      function hamburgerMenu() {
-        burgerCon.classList.toggle("slideToggle");
-        button.classList.toggle("expanded");
-      }
+    //   function hamburgerMenu() {
+    //     burgerCon.classList.toggle("slideToggle");
+    //     button.classList.toggle("expanded");
+    //   }
 
-      button.addEventListener("click", hamburgerMenu, false);
-    });
+    //   button.addEventListener("click", hamburgerMenu, false);
+    // });
 
 
 app.listen(port, () => {
