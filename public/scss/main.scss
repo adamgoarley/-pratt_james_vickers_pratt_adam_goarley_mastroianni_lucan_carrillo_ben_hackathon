@@ -409,9 +409,10 @@ footer
 {
 	margin-top: 25px;
 }
- 
+
+.box{display: none;}
+
 @media (max-width: 880px) {
- 
     .footerMain
     {
         font-family: 'Merriweather Sans';
@@ -436,6 +437,10 @@ footer
     {
 		line-height: normal;
 		font-size: auto;
-	}
+    }
+    
+    #header{
+        justify-content: space-between
+    }
  
 }
