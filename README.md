@@ -6,4 +6,6 @@ Sass implementation for css, website lincludes a description,  information on se
 
 Database holds website heading, paragraphs, and images. 
 
+Adam Goarley, Lucas Mastroianni, James Pratt, Graham Vickers, Ben Carrillo, 
+
 
